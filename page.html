@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo-text">PROFILE</li>
+            <li>
+            <ul>
+               <li><a href="#home" class="nav-link">HOME</a></li>
+               <li><a href="#bio" class="nav-link">BIO</a></li>
+               <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
+               <li><a href="#skills" class="nav-link">SKILLS</a></li>
+               <li><a href="#contact" class="nav-link link-button">CONTACT</a></li>
+              
+            </ul>
+            </li>
+        </ul>
+    </nav>
+    <header id="home">
+        <div>
+            <p>I believe in</p>
+            <h1>EAT();SLEEP();CODE();REPEAT();</h1>
+        </div>
+    </header>
+    <section id="bio">
+        <img src="./assets/female_image.jpg" alt="photo">
+        <article>
+            <h2>Srimathi</h2>
+            <p>
+                I am pursuing Electronics and communication engineering from Rajalakshmi Engineering College and currently in final year of study.
+                I have deep interest in coding which is why I am building my skills through this course.Go ahead and download my resume to learn more about me.
+            </p>
+            <a href="./assets/Srimathi_resume_final.pdf" class="link-button" download>Download my resume</a>
+            
+        </article>
+    
+    </section>
+    <section id="portfolio">
+        <h3>PORTFOLIO</h3>
+        <p>Some of my good projects</p>
+        <hr>
+        <div>
+           
+                
+               <article> 
+                <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg">
+                   <h4>Fruit ripeness detection system</h4>
+                <p>The project revolves around image processing where in the ripeness percentage of the tomato fruit is
+                    calculated using MATLAB.</p><br>
+                </article>
+
+       
+                <article>
+                <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg">
+                <h4>Uno Security system</h4>
+                <p>The system uses SVM classifier to classify the images of intrusion which is captured on detecting a
+                    hindrance to the laser to prevent any unauthorized entry</p><br>
+                
+                </article>
+        </div>
+    </section>
+    <br>
+    <section id="skills">
+        <h3>SKILLS</h3>
+        <div id="skills-container">
+            <div>
+                <h4>Technical</h4>
+                <div>
+                    <ul>
+                        <li>Java</li>
+                        <li><progress value = "80" max = "100"/></li>
+                        <li>C</li>
+                        <li><progress value = "75" max = "100"/></li>
+                        <li>Python</li>
+                        <li><progress value = "50" max = "100"/></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h4>Languages</h4>
+                <div>
+                    <ul>
+                        <li>English</li>
+                        <li><progress value = "65" max = "100"/></li>
+                        <li>Tamil</li>
+                        <li><progress value = "80" max = "100"/></li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <h3>CONTACT</h3><br>
+        <form >
+            <input class="input-data" type="text"  placeholder="Enter your Name" ><br>
+            <input class="input-data" type="text"  placeholder="Enter your Email" ><br>
+            <input class="input-data" type="text" placeholder="Enter your Message" ><br>
+            <input type="submit" class="link-button">
+        </form>
+    </footer>
+</body>
+</html>
